@@ -2,7 +2,6 @@
 layout: recipe
 title: Crusty White Bread (Breadmaker)
 ---
-# 750 g Crusty White Bread (Breadmaker)
 
 ## Ingredients
 - 270 ml water  
