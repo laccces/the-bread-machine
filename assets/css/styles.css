@@ -72,6 +72,12 @@ h1{
   font-size: 1.02rem;
 }
 
+.site-logo.stacked span{
+  display: block;
+  line-height: 1.05;
+}
+
+
 /* Links */
 a{
   color: var(--forest);
