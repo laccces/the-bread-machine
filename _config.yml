@@ -8,3 +8,4 @@ baseurl: /the-bread-machine
 collections:
   recipes:
     output: true
+    permalink: /:name/
