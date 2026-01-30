@@ -194,7 +194,7 @@ h1{
 
 .recipe{
   margin-top: .75rem;
-  padding: 1.2rem 1.15rem 1.35rem;
+  padding: .85rem .9rem 1rem;
   border-radius: var(--radius);
   background: var(--paper);
   border: 1px solid var(--stroke);
@@ -241,11 +241,7 @@ h1{
 
 /* Recipe background override */
 body.recipe{
-  background: var(--forest);
-}
-
-body.recipe::before{
-  opacity: .18;
+  background: var(--bg);
 }
 
 body.recipe .recipe{
@@ -257,4 +253,9 @@ body.recipe .recipe{
 @media (max-width: 380px){
   main{ padding: 1.5rem 1.05rem 2.5rem; }
   .recipe{ padding: 1.05rem 1rem 1.2rem; }
+}
+
+/* Wider content on recipe pages */
+body.recipe main{
+  max-width: 48rem; /* was 42rem */
 }
