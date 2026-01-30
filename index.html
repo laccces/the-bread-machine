@@ -1,31 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Bread Machine</title>
+---
+layout: default
+title: Home
+---
 
-  <!-- iOS standalone -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="The Bread Machine">
+<h1>The Bread Machine</h1>
+<p class="subtitle">Calm bread recipes, kept close.</p>
 
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>The Bread Machine</h1>
-    <p class="subtitle">Bread recipes, no nonsense.</p>
-  </header>
-
-  <main>
-    <ul class="recipe-list">
-      <li><a href="recipe-sourdough-basic.html">Basic Sourdough</a></li>
-      <li><a href="#">Tin Loaf (coming soon)</a></li>
-      <li><a href="#">Focaccia (coming soon)</a></li>
-    </ul>
-  </main>
-
-  <script src="app.js"></script>
-</body>
-</html>
+<ul class="recipe-list">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
