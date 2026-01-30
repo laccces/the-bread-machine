@@ -3,6 +3,8 @@ description: Calm bread recipes from the woods
 markdown: kramdown
 theme: null
 
+baseurl: /the-bread-machine
+
 collections:
   recipes:
     output: true
