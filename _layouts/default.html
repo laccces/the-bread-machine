@@ -21,7 +21,7 @@
 
 
 </head>
-<body class="{{ page.body_class | default: '' }}">
+<body class="{{ page.layout }} {{ page.body_class | default: '' }}">
   <main>
     {{ content }}
   </main>

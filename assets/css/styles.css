@@ -240,15 +240,15 @@ h1{
 }
 
 /* Recipe background override */
-body.recipe-page{
+body.recipe{
   background: var(--forest);
 }
 
-body.recipe-page::before{
+body.recipe::before{
   opacity: .18;
 }
 
-body.recipe-page .recipe{
+body.recipe .recipe{
   background: rgba(246,244,241,.92);
   border: 1px solid rgba(246,244,241,.22);
 }
