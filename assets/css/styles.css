@@ -183,3 +183,17 @@ a:active{ opacity: .85; }
   main{ padding: 1.5rem 1.05rem 2.5rem; }
   .recipe{ padding: 1.05rem 1rem 1.2rem; }
 }
+.section-divider{
+  margin-top: 3rem;
+  color: var(--muted);
+  font-size: 1.4rem;
+}
+
+.recipe-list.untested a{
+  opacity: .85;
+}
+
+.recipe-list.untested a::after{
+  content: "↺";
+  color: var(--clay);
+}

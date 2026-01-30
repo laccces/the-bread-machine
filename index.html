@@ -4,10 +4,22 @@ title: Home
 ---
 
 <h1>The Bread Machine</h1>
-<p class="subtitle">A place to keep all of my favourite bread recipes.</p>
+<p class="subtitle">Calm bread recipes, kept close.</p>
 
+<h2>Recipes</h2>
 <ul class="recipe-list">
   {% for recipe in site.recipes %}
+    <li>
+      <a href="{{ recipe.url | relative_url }}">
+        {{ recipe.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2 class="section-divider">Untested</h2>
+<ul class="recipe-list untested">
+  {% for recipe in site.untested %}
     <li>
       <a href="{{ recipe.url | relative_url }}">
         {{ recipe.title }}
