@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#3F4F44"/>
+
+  <text
+    x="256"
+    y="230"
+    text-anchor="middle"
+    font-family="Cormorant Garamond, Georgia, serif"
+    font-size="86"
+    font-weight="600"
+    fill="#F6F4F1">
+    Bread
+  </text>
+
+  <text
+    x="256"
+    y="315"
+    text-anchor="middle"
+    font-family="Cormorant Garamond, Georgia, serif"
+    font-size="86"
+    font-weight="600"
+    fill="#F6F4F1">
+    Machine
+  </text>
+</svg>
