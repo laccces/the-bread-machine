@@ -2,3 +2,7 @@ title: The Bread Machine
 description: Calm bread recipes from the woods
 markdown: kramdown
 theme: null
+
+collections:
+  recipes:
+    output: true
