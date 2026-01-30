@@ -89,7 +89,7 @@ h1{
    ========================= */
 .site-header{
   text-align: center;
-  margin: .5rem 0 2.25rem;
+  margin: .5rem 0 0.5rem;
 }
 
 .site-footer{
@@ -241,7 +241,7 @@ h1{
 
 /* Recipe background override */
 body.recipe{
-  background: var(--forest);
+  background: var(--forest) !important;
 }
 
 body.recipe::before{

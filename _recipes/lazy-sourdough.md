@@ -3,11 +3,6 @@ layout: recipe
 title: Lazy Sourdough
 ---
 
----
-layout: recipe
-title: Sourdough Starter and Lazy Sourdough Loaf
----
-
 ## Sourdough Starter – From Day 1 to Forever
 
 ### Phase 1: Creation (Days 1–7)
