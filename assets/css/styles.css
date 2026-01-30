@@ -1,67 +1,207 @@
-/* Base reset */
-* {
-  box-sizing: border-box;
+:root{
+  /* Light forest palette */
+  --bg0: #F4F7F3;
+  --bg1: #EEF4EF;
+  --ink: #1E2A23;
+  --muted: #5E6E63;
+
+  --pine: #2F4E3F;
+  --sage: #6F8F7A;
+  --moss: #88A58F;
+
+  --lichen: #BFA58A; /* rare warm note */
+  --paper: rgba(255,255,255,.72);
+  --paper-strong: rgba(255,255,255,.86);
+  --stroke: rgba(47,78,63,.12);
+
+  --radius: 18px;
+  --shadow: 0 18px 55px rgba(30,42,35,.10);
+  --shadow-soft: 0 10px 30px rgba(30,42,35,.08);
+
+  --max: 42rem;
 }
 
-body {
+/* Baseline */
+*{ box-sizing: border-box; }
+html{ -webkit-text-size-adjust: 100%; }
+body{
   margin: 0;
+  color: var(--ink);
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #F5F7F4;
-  color: #1F2A24;
-  line-height: 1.6;
+  line-height: 1.65;
+
+  /* Misty forest background with subtle depth */
+  background:
+    radial-gradient(1200px 800px at 15% 10%, rgba(136,165,143,.22), transparent 60%),
+    radial-gradient(900px 700px at 85% 0%, rgba(111,143,122,.18), transparent 55%),
+    radial-gradient(900px 700px at 75% 85%, rgba(47,78,63,.10), transparent 55%),
+    linear-gradient(180deg, var(--bg1), var(--bg0));
 }
 
-/* Layout */
-main {
-  padding: 1.5rem 1.25rem 2.5rem;
-  max-width: 40rem;
+/* Gentle texture, no image assets */
+body::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: .22;
+  background:
+    repeating-linear-gradient(0deg,
+      rgba(30,42,35,.035) 0px,
+      rgba(30,42,35,.035) 1px,
+      transparent 2px,
+      transparent 6px);
+  mix-blend-mode: multiply;
+}
+
+/* Layout container */
+main{
+  max-width: var(--max);
   margin: 0 auto;
+  padding: 1.75rem 1.25rem 3rem;
 }
 
-/* Headings */
-h1, h2, h3 {
+/* Typography */
+h1, h2, h3{
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-weight: 500;
-  color: #3F5F4F;
+  color: var(--pine);
+  letter-spacing: .2px;
 }
 
-/* Index */
-.subtitle {
-  color: #6F8F7A;
-  margin-top: 0.25rem;
+h1{
+  margin: .25rem 0 .25rem;
+  font-size: clamp(2.05rem, 5.2vw, 2.75rem);
+  font-weight: 600;
+  line-height: 1.05;
 }
 
-.recipe-list {
+.subtitle{
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.02rem;
+}
+
+/* Links */
+a{
+  color: var(--pine);
+  text-decoration: none;
+}
+a:active{
+  opacity: .85;
+}
+
+/* Index list: editorial, not cards */
+.recipe-list{
   list-style: none;
   padding: 0;
   margin: 2rem 0 0;
 }
 
-.recipe-list li {
-  margin-bottom: 1.25rem;
+.recipe-list li{
+  padding: 1.05rem 0;
+  border-bottom: 1px solid rgba(47,78,63,.12);
 }
 
-.recipe-list a {
-  text-decoration: none;
-  color: #1F2A24;
-  font-size: 1.15rem;
+.recipe-list li:first-child{
+  border-top: 1px solid rgba(47,78,63,.12);
 }
 
-.recipe-list a:hover {
-  color: #6F8F7A;
+.recipe-list a{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 1.18rem;
+  font-weight: 500;
 }
 
-/* Recipe pages */
-.back {
-  margin-bottom: 1.5rem;
+.recipe-list a::after{
+  content: "→";
+  color: var(--sage);
+  font-size: 1.05rem;
+  transform: translateY(1px);
 }
 
-.back a {
-  text-decoration: none;
-  color: #6F8F7A;
-  font-size: 0.9rem;
+/* Soft hover where supported */
+@media (hover:hover){
+  .recipe-list a:hover{
+    color: var(--sage);
+  }
+  .recipe-list a:hover::after{
+    color: var(--moss);
+    transform: translate(2px, 1px);
+    transition: transform .18s ease, color .18s ease;
+  }
 }
 
-.recipe h1 {
+/* Back link */
+.back{
+  margin: .25rem 0 1.25rem;
+}
+.back a{
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  color: var(--sage);
+  font-size: .95rem;
+}
+
+/* Recipe article surface */
+.recipe{
+  margin-top: .75rem;
+  padding: 1.2rem 1.15rem 1.35rem;
+  border-radius: var(--radius);
+  background: var(--paper);
+  border: 1px solid var(--stroke);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(8px);
+}
+
+.recipe h1{
   margin-top: 0;
+}
+
+/* Content rhythm */
+.recipe p,
+.recipe ul,
+.recipe ol{
+  margin: .85rem 0;
+}
+
+.recipe h2{
+  margin: 1.25rem 0 .35rem;
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+.recipe h3{
+  margin: 1.05rem 0 .25rem;
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: var(--pine);
+}
+
+/* Lists */
+.recipe ul,
+.recipe ol{
+  padding-left: 1.15rem;
+}
+
+.recipe li{
+  margin: .35rem 0;
+}
+
+/* Subtle callout style (optional use: blockquote) */
+.recipe blockquote{
+  margin: 1.1rem 0;
+  padding: .85rem 1rem;
+  border-left: 3px solid rgba(111,143,122,.55);
+  background: rgba(255,255,255,.55);
+  border-radius: 12px;
+}
+
+/* Small screens: keep it airy but tight */
+@media (max-width: 380px){
+  main{ padding: 1.5rem 1.05rem 2.5rem; }
+  .recipe{ padding: 1.05rem 1rem 1.2rem; }
 }
