@@ -241,7 +241,7 @@ h1{
 
 /* Recipe background override */
 body.recipe{
-  background: var(--forest) !important;
+  background: var(--forest);
 }
 
 body.recipe::before{
