@@ -7,10 +7,10 @@ title: Home
 <p class="subtitle">A place to keep all of my favourite bread recipes.</p>
 
 <ul class="recipe-list">
-  {% for post in site.posts %}
+  {% for recipe in site.recipes %}
     <li>
       <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
+        {{ recipe.title }}
       </a>
     </li>
   {% endfor %}

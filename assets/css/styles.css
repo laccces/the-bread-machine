@@ -1,0 +1,67 @@
+/* Base reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #F5F7F4;
+  color: #1F2A24;
+  line-height: 1.6;
+}
+
+/* Layout */
+main {
+  padding: 1.5rem 1.25rem 2.5rem;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 500;
+  color: #3F5F4F;
+}
+
+/* Index */
+.subtitle {
+  color: #6F8F7A;
+  margin-top: 0.25rem;
+}
+
+.recipe-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+}
+
+.recipe-list li {
+  margin-bottom: 1.25rem;
+}
+
+.recipe-list a {
+  text-decoration: none;
+  color: #1F2A24;
+  font-size: 1.15rem;
+}
+
+.recipe-list a:hover {
+  color: #6F8F7A;
+}
+
+/* Recipe pages */
+.back {
+  margin-bottom: 1.5rem;
+}
+
+.back a {
+  text-decoration: none;
+  color: #6F8F7A;
+  font-size: 0.9rem;
+}
+
+.recipe h1 {
+  margin-top: 0;
+}
