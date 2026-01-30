@@ -152,6 +152,14 @@ a:active{ opacity: .85; }
   font-weight: 600;
 }
 
+.recipe h3{
+  margin: 1.05rem 0 .25rem;
+  font-size: 1.28rem;
+  font-weight: 600;
+  color: var(--forest);
+}
+
+
 .recipe ul,
 .recipe ol{
   padding-left: 1.15rem;
