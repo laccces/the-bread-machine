@@ -9,14 +9,21 @@ Water should be cool, ideally below 16°C.
 
 #### Dough quantities
 
-| Pizzas | Flour | Water | Yeast | Salt | Sugar | Olive oil |
-|------:|------:|------:|------:|-----:|------:|----------:|
-| 1     | 166g  | 103g  | 0.7g  | 4.1g | 3.2g  | 5.6g      |
-| 2     | 332g  | 206g  | 1.35g | 8.2g | 6.5g  | 11.1g     |
-| 3     | 498g  | 309g  | 2.0g  | 12.3g| 9.7g  | 16.7g     |
-| 4     | 664g  | 412g  | 2.7g  | 16.4g| 12.9g | 22.3g     |
+**2 pizzas**
+Flour: 330 g
+Water: 205 g
+Yeast: ½ tsp instant yeast
+Salt: 8 g
+Sugar: 6 g
+Olive oil: 2½ tsp
 
----
+**3 pizzas**
+Flour: 500 g
+Water: 310 g
+Yeast: ¾ tsp instant yeast
+Salt: 12 g
+Sugar: 9 g
+Olive oil: 1 tbsp + 1 tsp
 
 ### Method
 

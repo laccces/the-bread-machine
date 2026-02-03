@@ -13,8 +13,6 @@ Makes 8 rolls
 - 1 tsp sunflower oil, plus extra for the work surface and bowl
 - 325ml warm water
 
----
-
 ### Method
 
 **Step 1**  
