@@ -142,11 +142,16 @@ a:active{
 .recipe-list{
   list-style: none;
   padding: 0;
-  margin: 2rem 0 0;
+  margin: 2.25rem 0 0;
 }
 
 .recipe-list li{
-  margin-bottom: 1.25rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--stroke);
+}
+
+.recipe-list li:first-child{
+  border-top: 1px solid var(--stroke);
 }
 
 .recipe-list a{
@@ -155,25 +160,24 @@ a:active{
   justify-content: space-between;
   gap: 1rem;
 
-  padding: 1.1rem 1.15rem;
-  border-radius: var(--radius);
-  background: var(--paper);
-  border: 1px solid var(--stroke);
-  box-shadow: var(--shadow-soft);
-
   font-size: 1.18rem;
   font-weight: 500;
 }
 
 .recipe-list a::after{
   content: "→";
-  color: var(--ember);
-  font-size: 1.05rem;
+  color: var(--muted);
+  font-size: 1rem;
 }
 
 @media (hover:hover){
   .recipe-list a:hover{
     color: var(--ember);
+  }
+
+  .recipe-list a:hover::after{
+    color: var(--ember);
+    transform: translateX(2px);
   }
 }
 
