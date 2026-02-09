@@ -3,13 +3,10 @@ layout: recipe
 title: Plain Flour Cold Ferment Pizza Dough
 ---
 
-# Plain Flour Cold Ferment Pizza Dough
 
-Makes **2 × 280 g dough balls**
-
----
 
 ## Ingredients
+Makes 2 × 280 g dough balls
 
 - Plain white flour: **330 g**
 - Water: **190 g**
