@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: Pizza Dough
+---
+
 # Plain Flour Pizza Dough (Easy Stretch, Steel-Optimised)
 
 Designed for:
