@@ -17,80 +17,70 @@ Makes 2 × 280 g dough balls
 
 Hydration: ~58%
 
----
-
 ## Method
 
-1. **Yeast**
-   - Mix water and yeast.
-   - Rest 2–3 minutes.
+**Step 1**  
+Mix water and yeast. Rest 2–3 minutes.
 
-2. **Mix**
-   - Add liquid to flour.
-   - Mix until just combined.
+**Step 2**  
+Add liquid to flour. Mix until just combined.
 
-3. **Oil**
-   - Add olive oil and mix in.
+**Step 3**  
+Add olive oil and mix in.
 
-4. **Season**
-   - Add salt and sugar.
-   - Mix to a shaggy dough.
+**Step 4**  
+Add salt and sugar. Mix to a shaggy dough.
 
-5. **Knead**
-   - Knead lightly for 3–4 minutes.
-   - Stop once smooth. Do not overwork.
+**Step 5**  
+Knead lightly for 3–4 minutes. Stop once smooth. Do not overwork.
 
-6. **Rest**
-   - Cover and rest **15 minutes**.
+**Step 6**  
+Cover and rest **15 minutes**.
 
-7. **Ball**
-   - Divide into two280 g balls.
-   - Shape gently with minimal tension.
+**Step 7**  
+Divide into two 280 g balls. Shape gently with minimal tension.
 
-8. **Cold ferment**
-   - Lightly oil, cover, refrigerate 24–48 hours.
-   - 48 hours ideal. Do not exceed 72.
+**Step 8**  
+Lightly oil, cover, refrigerate 24–48 hours. 48 hours ideal. Do not exceed 72.
 
 ---
 
 ## Baking Day
 
-### Dough prep
-- Remove from fridge 90–120 minutes before baking.
-- Dough should be soft, cool, and relaxed.
-
----
+**Dough prep**  
+Remove from fridge 90–120 minutes before baking. Dough should be soft, cool, and relaxed.
 
 ## Oven Setup
 
-- Pizza steel on **top third rack**
-- Fan oven at **250°C**
-- Preheat **45–60 minutes**
-
----
+Pizza steel on **top third rack**. Fan oven at **250°C**. Preheat **45–60 minutes**.
 
 ## Shaping
 
-1. Flour dough and bench.
-2. Press from centre outwards, leave rim untouched.
-3. Flip and repeat.
-4. Stretch gently over knuckles.
+**Step 1**  
+Flour dough and bench.
 
-Target **10–11 inches**.  
-If it resists, rest 5 minutes and continue.
+**Step 2**  
+Press from centre outwards, leave rim untouched.
 
----
+**Step 3**  
+Flip and repeat.
+
+**Step 4**  
+Stretch gently over knuckles.
+
+Target **10–11 inches**. If it resists, rest 5 minutes and continue.
 
 ## Topping
 
-- Light sauce
-- **80–90 g** mozzarella
-- Avoid over-topping
-
----
+Light sauce. **80–90 g** mozzarella. Avoid over-topping.
 
 ## Bake
 
-1. Launch onto steel.
-2. Bake **6–7 minutes**.
-3. Finish under grill **30–60 seconds** if needed for colour.
+**Step 1**  
+Launch onto steel.
+
+**Step 2**  
+Bake **6–7 minutes**.
+
+**Step 3**  
+Finish under grill **30–60 seconds** if needed for colour.
