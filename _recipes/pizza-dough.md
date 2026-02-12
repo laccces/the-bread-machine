@@ -19,7 +19,7 @@ title: Plain Flour Cold Ferment Pizza Dough
   </select>
 </div>
 
-Makes <span id="yield-text">2 × 280 g</span> dough balls
+Makes <span id="yield-text">2 × 280 g dough balls</span>
 
 - Plain white flour: **<span id="flour">330</span> g**
 - Water: **<span id="water">190</span> g**
@@ -53,8 +53,9 @@ Hydration: ~58%
   function updateIngredients() {
     const count = parseInt(document.getElementById('pizza-count').value);
     const multiplier = count / 2;
+    const ballText = count === 1 ? 'dough ball' : 'dough balls';
     
-    document.getElementById('yield-text').textContent = count + ' × ' + Math.round(280 * multiplier) + ' g';
+    document.getElementById('yield-text').textContent = count + ' × 280 g ' + ballText;
     document.getElementById('flour').textContent = Math.round(baseAmounts.flour * multiplier);
     document.getElementById('water').textContent = Math.round(baseAmounts.water * multiplier);
     document.getElementById('yeast').textContent = formatNumber(baseAmounts.yeast * multiplier);
