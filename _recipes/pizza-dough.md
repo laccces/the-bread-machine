@@ -86,7 +86,7 @@ Add salt and sugar. Mix to a shaggy dough.
 Knead lightly for 3–4 minutes. Stop once smooth. Do not overwork.
 
 **Step 6**  
-Cover and rest **15 minutes**.
+Cover and rest 15 minutes.
 
 **Step 7**  
 Divide into two 280 g balls. Shape gently with minimal tension.
@@ -103,7 +103,7 @@ Remove from fridge 90–120 minutes before baking. Dough should be soft, cool, a
 
 ## Oven Setup
 
-Pizza steel on **top third rack**. Fan oven at **250°C**. Preheat **45–60 minutes**.
+Pizza steel on top third rack. Fan oven at 250°C. Preheat 45–60 minutes.
 
 ## Shaping
 
@@ -119,11 +119,11 @@ Flip and repeat.
 **Step 4**  
 Stretch gently over knuckles.
 
-Target **10–11 inches**. If it resists, rest 5 minutes and continue.
+Target 10–11 inches. If it resists, rest 5 minutes and continue.
 
 ## Topping
 
-Light sauce. **80–90 g** mozzarella. Avoid over-topping.
+Light sauce. 80–90 g mozzarella. Avoid over-topping.
 
 ## Bake
 
@@ -131,7 +131,7 @@ Light sauce. **80–90 g** mozzarella. Avoid over-topping.
 Launch onto steel.
 
 **Step 2**  
-Bake **6–7 minutes**.
+Bake 6–7 minutes.
 
 **Step 3**  
-Finish under grill **30–60 seconds** if needed for colour.
+Finish under grill 30–60 seconds if needed for colour.
