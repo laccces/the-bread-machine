@@ -6,7 +6,7 @@ title: Flour Tortillas
 Makes 6
 
 ### Ingredients
-- 240g strong white bread flour
+- 240g plain/strong white bread flour
 - Pinch of salt
 - 3 tbsp (45ml) olive oil
 - 120ml boiling water

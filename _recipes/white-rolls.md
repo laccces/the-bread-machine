@@ -7,7 +7,7 @@ Makes 8 rolls
 
 ### Ingredients
 - 500g strong white bread flour, plus extra for dusting
-- 7g sachet fast-action yeast
+- 7g fast-action yeast
 - 1 tsp white caster sugar
 - 2 tsp fine salt
 - 1 tsp sunflower oil, plus extra for the work surface and bowl
