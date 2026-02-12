@@ -6,16 +6,66 @@ title: Plain Flour Cold Ferment Pizza Dough
 
 
 ## Ingredients
-Makes 2 × 280 g dough balls
 
-- Plain white flour: **330 g**
-- Water: **190 g**
-- Instant yeast: **½ tsp**
-- Fine salt: **8 g**
-- Sugar: **6 g**
-- Olive oil: **2½ tsp**
+<div class="pizza-calculator">
+  <label for="pizza-count">Number of pizzas:</label>
+  <select id="pizza-count">
+    <option value="1">1</option>
+    <option value="2" selected>2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+  </select>
+</div>
+
+Makes <span id="yield-text">2 × 280 g</span> dough balls
+
+- Plain white flour: **<span id="flour">330</span> g**
+- Water: **<span id="water">190</span> g**
+- Instant yeast: **<span id="yeast">½</span> tsp**
+- Fine salt: **<span id="salt">8</span> g**
+- Sugar: **<span id="sugar">6</span> g**
+- Olive oil: **<span id="oil">2½</span> tsp**
 
 Hydration: ~58%
+
+<script>
+(function() {
+  const baseAmounts = {
+    flour: 330,
+    water: 190,
+    yeast: 0.5,
+    salt: 8,
+    sugar: 6,
+    oil: 2.5
+  };
+  
+  function formatNumber(num) {
+    if (num === Math.floor(num)) return num.toString();
+    if (num % 1 === 0.5) {
+      const whole = Math.floor(num);
+      return whole > 0 ? whole + '½' : '½';
+    }
+    return num.toFixed(1).replace(/\.0$/, '');
+  }
+  
+  function updateIngredients() {
+    const count = parseInt(document.getElementById('pizza-count').value);
+    const multiplier = count / 2;
+    
+    document.getElementById('yield-text').textContent = count + ' × ' + Math.round(280 * multiplier) + ' g';
+    document.getElementById('flour').textContent = Math.round(baseAmounts.flour * multiplier);
+    document.getElementById('water').textContent = Math.round(baseAmounts.water * multiplier);
+    document.getElementById('yeast').textContent = formatNumber(baseAmounts.yeast * multiplier);
+    document.getElementById('salt').textContent = Math.round(baseAmounts.salt * multiplier);
+    document.getElementById('sugar').textContent = Math.round(baseAmounts.sugar * multiplier);
+    document.getElementById('oil').textContent = formatNumber(baseAmounts.oil * multiplier);
+  }
+  
+  document.getElementById('pizza-count').addEventListener('change', updateIngredients);
+})();
+</script>
 
 ## Method
 
