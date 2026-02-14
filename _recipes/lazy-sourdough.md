@@ -1,7 +1,7 @@
-
+---
 layout: recipe
 title: Lazy Sourdough
-
+---
 
 ## Sourdough Starter – From Day 1 to Forever
 
